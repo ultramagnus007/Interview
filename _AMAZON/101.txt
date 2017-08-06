@@ -1,0 +1,76 @@
+
+
+Amazon Interview | Set 101 (On-Campus)
+
+Off late, Amazon had an On-campus recruitment. Here is the interview process.
+
+1) Written Round
+
+    20 MCQ’s
+        two C code snippets
+        a couple of questions of time-dist-speed
+        easy questions on operating systems
+        find the no.of network addresses of a class C address
+    two coding questions
+        Given a set of inputs (x,y) which represent intervals, merge overlapping intervals
+        e.x. (3,4) ; (2,5) ; (1,4) ; (8,9)
+        output should be – (1,5) ; (8,9)
+        *note – my code had errors, but as i had used merge sort for sorting the inputs, i cleared the first round, whereas others with properly working code but in-efficient algorithms didn’t
+        Given a (nXm) matrix, with values present in each cell and a few in-accessible cells marked as -1, find the path from (0,0) to (n,m) with highest sum.
+
+2) Interview Round 1
+
+    Given an array, find a pair with sum = k
+    *note – If you already know the approach/already coded a question before, let the interviewer know before hand!
+    Given a regular expression, and a string, validate the string against the regular expression
+    e.x.
+    Regular expression : ab*bbc*c
+    Pattern : abbbc VALID
+    Pattern : abc NOT VALID
+
+ 
+
+3) Interview Round 2
+
+    A couple of questions from arrays, binary trees and BST’s , which were directly taken from DS section of geeksforgeeks.
+    (I said I have coded them all and know the approach)
+    Box stacking problem for 2 dimension, 3 dimensions.
+    (I said I know the approach for all)
+    Box stacking problem for k dimensions
+    (I didn’t know the approach, so tried it out in the interview. Nearly reached the solution, with the help of the interviewer. In the end, turns out, this was the same question which was asked to him, during his interview round in amazon 2 years back. “SET 2”)
+
+ 
+
+4) Interview Round 3
+
+    Same question from interview round 1, given an array, find a pair with sum k.
+    But, now I was asked to optimize the solution to O(n) time.
+    Explain how chat-messenger functions in Facebook,Whatssap
+    Validate whether a given 9X9 matrix is a sudoku matrix or not.
+    (In all cases, the goal of this round was not to check your coding skills, but your ability to handle all varieties of test cases!)
+
+ 
+
+5) Interview Round 4
+
+(This I believe, was probably a stress interview a.k.a Bar Raiser Round. The motive was to shift your attention from one topic to another rapidly and see if you can handle the questions that follow.)
+
+    Tell me something about yourself
+    The interviewer asked me to pick up a project from all those I had worked on. I chose my B.Tech project related to Genetic Algorithm and Graphs
+    Explain the algorithm
+    How are graphs being represented in your project
+    Various ways to represent adjacency nodes (adjacency matrix, adjacency list)
+    Write code for adjacency list
+    Write code for reversal of linked list (iterative and recursive)
+    Which one would you prefer, arrays or linkedlist, if so why!
+    Why use double pointers to pass head of a linked list, why can’t we just return the value from the function. Which one do you prefer and why.
+    (As I had done my code using double pointers.)
+    What is a stack and heap, and how is memory allocated
+    Given a step function f(i) whose value increases just once as we move from i = 1 .. infinity,
+    Find the value of i, where the transition occurs.
+    (I suggested increasing the length for checking by a power of 2, and then when a transition occurs, do a binary search within the boundary.)
+    Why increase the length in powers of 2 and not just increase it by a constant factor of some value ‘n’
+
+ 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

@@ -1,0 +1,74 @@
+
+Amazon Interview Experience | Set 201 (On-Campus for SDE-1)
+
+Aptitude Round: (1:30 hours)
+20 MCQs
+MCQs on processes, maths aptitude,  and algorithms etc . Few output questions on pointers.
+
+2 Coding questions: (  on hackerRank)
+
+    Given 2 strings, check if any one of them has any anagram of the other string, as a substring of it.
+    Graph question : ( not mentioned directly as graph, but was implied). basically Needed to find the shortest path between two given vertices in the graph.
+
+Interview:
+Round 1:
+
+    BST to Doubly Linked List ( Geeks question){code it}
+    for Doubly Linked List to BST conversion, give an algorithm and prove its complexity using recurrence relations.  => O(nlogn)
+    On a number line from negative infinite to positive infinite, if you start from 0, you can either jump back or front. but every jump length is 1 more than the previous jump. Given a number on the number line, can we reach it using any combination of jumps. If yes, print the minimum length path. Hint: Solved using Queue storing all possibilities, something similar to BFS. and BFS search wud always give shortest path.
+
+Round 2:
+
+    Given an array of Integers, find the Maximum length subarray with sum equal to zero.  Solved by constructing Prefix sum array for the given array. In prefix sum array, any number repeating more than once, implies subarray between those indices is 0, so store length of this subarray, check for other repeated values too. ( careful coding required to eliminate bugs) Additionally had used a HashMap(java) to do this solution time efficiently. {code it}
+    Return largest BST from a BT ( geeks question) {code it}
+
+Round 3:
+
+    Tell me About your Internship project. ( It dealt with Performance bench-marking for embedded Systems ( SoC) with respect to latency and bandwidth  done at  Samsung R&D B’lore).
+    Given a 2-D matrix of zeroes and ones, any row/column containing a single 1 is made completely 1. ( available on geeks) I told him I know the space and time optimized solution to it ( as provided by geeks). Asked me to code it… had some bugs, took some time to debug a particular corner case.{code it} 
+    He Modified above question, providing conditions -> if there are no limitations on the space used, and if accessing each cell has a cost attached to it, how would you do the same problem in least cost. 
+    Given a tree with three pointers in every node, left, right and next, connect all the nodes at the same level in a spiral fashion. eg root’s next points to right child which in turn points to roots left child which in turn points to level 2’s 1st left child … and so on… any node could have 0,1 or 2 children.( geeks)
+
+Round 4:
+
+    Given the function : int func( int n) { if(n==1) return 1; return n* func(n-1)*func(n-2) + func(n-1)*func(n-2) + func(n-1); }  // What is its space complexity.
+    Given a  in-coming stream of numbers ( either 0, 1 or 2), Design a Finite state machine which tells me if the number formed by the input stream so far, is divisible by 3.  eg stream state is “012” return true, coz 12 is divisible by 3.. for “0111” return false…   { Design the FSM }
+    Proposition logic question with 5 statements given, determine their truth. ( Solved using common sense, but wanted me to prove it mathematically )
+    Given an int represented in Big Endian form, convert into into Little Endian, where the number of bytes taken up by int is not provided.  Ex: if int is of 4 bytes and input integer n= A B C D , => o/p = D C B A => n2 … where the alphabets represent a byte. return n2.  Involved Bit manipulation. { Code it}
+    The one thing you regret from the past 3 years in college.
+
+Round 5:
+
+    Introduce yourself.
+    Given an n-ary tree, traverse it in level order, printing a particular element in each level( that particular number is returned by function “func1(int level)”. Gave an O(N) time and O(N) space complex solution, followed by an O(N) time and O(1) space complex solution. {code it}
+    Advantages/Disadvantages of a static variable inside a class in java.
+    Performance implications of the static variable inside a function in C.
+
+Selected as a full time employee. 
+
+Tips:
+
+    Have a loud thinking, the interviewer helps you if you get struck. Ask ALOT of questions. At least he will know what you are thinking or where you are going wrong at.
+    Write neat code,”take your time …..as much as you like”.
+    Make sure the interviewer has approved the algorithm before you start coding. Discuss full algorithm before you code. He may ask you to think in a more optimized manner.
+    Study “geeksforgeeks.org” well, especially the tree sections, and dont mug up the code, its no use, you will not remember when needed, instead, understand why every minute detail of the code. This will take u further.
+    Study basics of every computer related subject taught in class. No need to be experts, but having an idea helps.
+    Mostly it is about data structures and algorithms. Make sure you are comfortable with them.
+    Side note: Help others and just do good. Neither hard work nor luck pays. Its all about your destiny. Dont get worked up about these things. Life has more purpose.
+     “Karmaane vadhi karaste ma faleshu kadhachanam..” – Gita
+
+above line means “Keep doing good deeds, dont expect rewards..” 
+
+“Nasrum Minallaahi Wa Fathun Qareeb”  – The Holy Qura’an
+
+Above line means, “When comes the help of Allah, Victory is near”
+
+Best of luck  🙂  
+
+Thank You geeksforgeeks teams.. Thanx a ton 🙂  
+
+And thanx to my parents, and friends who helped me alot.
+
+ 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

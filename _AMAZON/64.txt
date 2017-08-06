@@ -1,0 +1,41 @@
+
+Amazon Interview | Set 64 (Off-Campus for SDE)
+
+I am sharing my off campus SDE interview experience with Amazon.
+
+Online round: (1hr)
+
+    Given coin array and a sum K, find min. number of required coin to make sum K.
+    Two rectangles are given in two D space. Find if these are overlapping or not
+    KMP for pattern searching
+
+After two days I got the call to come Amazon office for F2F interviews:
+
+1st Round:
+
+    Program to construct binary tree from its inorder and preorder traversal. (algo+code)
+    Reverse every k-element in a linked list(algo+code)
+
+2nd Round:
+
+    Tell me about one of your best project in detail.
+    Design Restaurant reservation system.
+
+3rd Round:
+
+    Given a binary search tree of n nodes, find all the pair of  nodes whose sum is equal to a given number k in O(n) time and constant space.(algo+code)
+    Given a function “f” in which 0 occurs with probability 0.4 and 1 occurs with probability 0.6. Using function “f” deduce a new function “f1” such that both 0 and 1 occurs with probability 0.5
+    Given a matrtix, find the maximum sum subarray in it.(algo+code)
+
+After one week I got the call from HR for my BR round.
+
+4th Round (BR Round):
+
+     Tell me about yourself.
+     Why are you looking for change?
+     How will you handle conflict with your manager?
+    What is the most challenging work done by you  in your current company?
+    Lots of discussion happened about current company’s project.
+    Given a number N, find the smallest 3 digits number  such that product of its digits is equal to N. ( algo+ optimal code)
+
+In all the rounds, the most optimal production quality working code was required and if you get stuck, then they will give you HINTS but don’t consider this in your favor!

@@ -1,0 +1,64 @@
+
+Amazon Interview Experience | Set 235 (For SDE-II)
+GeeksOfGeeks has helped me a lot, so, thought of making a little contribution from my side.
+Amazon Interview for Position SDE II
+
+Round 1:
+The interviewer explained about his role and team. He asked questions below,
+
+    Tell me about yourself and a little bit about your project
+    Design a software to make a reservation at a chain of restaurants. All restaurants are in same Timezone. (He just wanted the class diagram)
+
+Round 2:
+Again, the next interviewer explained briefly about himself and asked about me and my role in the current project. He asked more details about current projects
+
+    Given an array of stock values of a company. Find out the time when a user would have bought the stock and sold the sock. Basically find the maximum positive difference of any two given elements in an array?
+    Told me to write this program.
+
+Round 3:
+Interviewer introduced himself and asked about my details and my current projects.
+
+    You have a BST and you need to assign an appropriate value to neighbor of all nodes (Explained in below example)
+
+           Node Structure
+           node {
+                     node leftChild,
+                     node rightChild,
+                     T data,
+                      node neighbor
+                     }
+            A
+         /     \
+       B       C
+     /    \         \
+   D     E       F
+Based on above tree,
+Node: Neighbor
+A: NULL
+B: C
+D: E
+E: F
+Told me write a program (It’s suppose to be recursive method)
+Round 4:
+
+    Given a price rules of parking and start time and end time of parking. Calculate the price (Below is the table of price rule) Come up with data structure you can store these price rules PriceRule
+
+Price Rules:
+On Weekday      On Weekend
+Hours   Price       Hours       Price
+0 – 2      $5           0 – 2          $8
+2 – 6      $10         2 – 6         $13
+6 – 12    $15         6 – 12        $18
+12 – 24  $20        12 – 24      $25
+The interviewer asked me to come up with an architecture for a system which shows the parking spaces available near customers’ location in a mobile app.
+Round 5:
+This round has been just behavioral questions,
+
+    What would you do when the manager disagrees with your decision even though you have a valid point?
+    What are the challenges you have faced in your career? How did you resolve it?
+    Explain the instance where you have contributed towards making the improvement in your project or team.
+    What would you do when your peer disagrees with your decision? How would you resolve the conflicts?
+
+ 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

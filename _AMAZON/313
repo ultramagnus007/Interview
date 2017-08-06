@@ -1,0 +1,39 @@
+
+Amazon Interview Experience | Set 313 (For SDE II)
+
+1st Round(Written) – 60 mins
+It was a test on HackerEarth with two programming questions
+
+    The Maximum Subarray problem: Given an array A of N elements, find maximum possible sum of
+    a. Contiguous Subarray
+    b. Non Contiguous Subarray
+    Connected Cell in grid problem. Find the number of cells in largest region.
+
+2nd Round (DS and Algo) – 45 min
+
+    Palindrome Partitioning– Spilt a string into minimum number of substring such that each substring is a pallindrome.
+    Find the diameter of a binary tree
+
+General discussion on current role.
+
+3rd Round (DS and Algo) – 45 min
+
+    find differnce in height of two nodes in a binary tree.
+    Multiply two numbers represented as a linked list.
+
+4th Round
+
+Detailed Discussion on current role and responsibilities.
+Discussed complete architecture of my current project- in terms of classes and methods, databases and cache used and then discussed improvements that i could suggest in architecture of my project.
+
+5th Round
+Discussion on current role and responsibilities. Discussed on architecture of my previous projects and technologies i have worked on.
+Design question- Design a enhanced search that can help customer executives to search for the query asked by user through all the possible sections like- payment, order etc.
+
+6th Round
+
+Design a job scheduler.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above

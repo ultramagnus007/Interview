@@ -1,0 +1,127 @@
+
+Amazon Interview Experience | Set 281 (for SDE1)
+
+Recently I had an interview for ERM-C team of Amazon Hyderabad for SDE-1 position.
+
+So, there were 5 rounds in total.
+
+Round 1 (On-screen interview) :
+ 
+They shared a link with me it was of collabedit where you as well as interviewer can make changes. So, the interview began with the brief introduction of interviewer and then he said that before we start the interview, can I have brief introduction of you. After that he asked me in which language you are comfortable, I told him C.
+There were two questions he asked me to code in this round both were of Data Structures.
+Q.1 Add two integers represented by singly linked lists to produce the resultant linked list which represents the sum as follows :
+Linked List 1 : 1->2->3 (Number : 123)
+Linked List 2 : 1->2->3 (Number : 123)
+Resultant Linked List : 2->4->6 (Number : 246)
+you need to handle all the edge cases.
+I gave him a solution that was, reverse the lists, add two lists using one by one using each node data and forward the carry, reverse the resultant list.
+
+Again he asked can you think of any other solution, I said him to convert the list data into integers add them and store in resultant list. He said there can be millions of nodes in a list and it may be that the resultant number exceed the range of integers then what will you do ? Then he gave me a hint. can you do it using recursion ? I said yes it can be easily done using recursion then he asked me to write the code for sum linked lists using recursion.
+Q.2 Given a binary tree and a sum, find all root-to-leaf paths where each paths sum equals the given sum.
+For example: Given the below binary tree and sum = 22,
+
+                  5
+                /   \
+               4     8
+             /       / \
+           11       13  4   
+          /  \         /  \
+         7    2       5    1
+
+Output:
+
+ 
+[
+       [5,4,11,2],
+       [5,8,4,5]
+]
+
+I told him to recursively store the elements of tree in array and print the array as and when we got the sum. He satisfied with it and asked me to write recursive function for the same. I wrote the code. He checked all the test cases, and then modified the question to what will you do if you have to find the given sum from any node to any other node and print the path.
+I told him the solution but he had to leave for the day so he said I am done for today. After exact 8 days I got a call from the HR that I will be having my onsite interview next week and asked me when will you be available next week.
+Then I had onsite interview.
+
+Total of four rounds were there, 2 via videoconferencing and other two f2f round.
+ 
+
+Round 2 (Video Conferencing with manager of ERM-C team):
+ 
+
+Interview starts with his introduction and then mine and then manager told me about the work and role of the team in amazon.
+Then he asked me about some commands related to work done in my previous project, how I compile the code and what is the output of the command etc.
+He asked me to explain my both the projects done in previous project in detail.
+After that he asked me what are all the data structures you know, I told him basic data structures.
+Now he said let’s discuss some coding part.
+
+You are given two non-binary trees you need to find maximum height common subtrees in both the tree. Various questions: how will you define structure of such trees ? how will you traverse the tree ? Write the structure as well as tree.
+He just asked me the approach, he did not ask to write the whole code.
+Next he asked what Is the role of static variable in java.
+Did you learn anything new in your project ? etc.
+
+Round 3 (Video Conferencing):
+ 
+
+Interview starts with his introduction and then mine.
+
+Tell me about your project.
+
+Q.1 You are given a array of N elements from 1 to N and a string of N/2 elements where each element of string is pair of two integers. You need to arrange the elements of array in such a way that the pair in string comes together in array, how many minimum swaps you need to do.
+For Example:
+a[]={1,2,3,4,5,6};
+s[]={1,6;2,5;3,4};
+the resultant array should be:
+Result[]={1,6,2,5,3,4};
+and an integer which return minimum number of swaps.
+I was not able to reach at exact solution of this problem.
+Then he asked me, you are given a single tree traversal can you construct a tree with the help of it.
+I said, we need two traversals and amongst them one should necessarily be an inorder traversal, he said okay.
+
+Q.2 you are given two tree traversal one is inorder and other is any of your choice from preorder or postorder you need to construct a binary tree for it. Write code for it.
+Wrote the complete code.
+Then he asked about what is virtual memory.
+what do you mean by interprocess communication.
+what are all its various types etc.
+ 
+
+Round 4 (face to face):
+ 
+
+It was with one other team manager of Amazon.
+As previous rounds interview, it started with introduction and then some project related question.
+Then he discussed some technical questions.
+Again the same question as first round but some changes to it.
+Q.1 Given two singly linked list, return the resultant sum list. This time number are given in reverse order in each node.
+Ex.
+N1=123. So, the first list is 3->2->1
+N2=764. So, the second list is 4->6->7
+And the resultant list is 7->8->8 and the sum is 887
+I, with all the edge cases covered, wrote code for it. I was using a function insert_at_end() of list so he asked me to write code for same function and then again asked me to check all the edge cases.
+Q.2 You are given an analog clock with only hour and minute hand in it, you need to come up with a generalized equation to find angle between these two hands.
+
+After so much struggle in my mind I came up with a equation as
+6*|5x-y|
+where x represents hour and y represents minute.
+Then he asked me some behavioral questions like
+Why amazon?
+Why did not you joining your intern company?
+Are you ready to reallocate?
+Then he was waiting for other interviewer to come, so he was asking about college, degree and all.
+ 
+
+Round 5(face to face 2 on 1):
+ 
+
+Interview starts with their introduction and then mine.
+Briefly explain us about your project.
+
+Then he came on technical question.
+Said lets start with a warm up question.
+Q.1 You are given a binary tree can you draw mirrored image of it. I draw the image and then he asked me to write the code for it with all the edge cases covered.
+Q.2 Rat maze problem.
+Just asked me the approach not the complete solution.
+Q.3 Given a sorted rotated array you need to find how many rotations you need to make to bring the array to complete sorted array with all the edge cases handled properly.
+I wrote the code, he asked so many cases and I modified the code for all the conditions which he gave.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+

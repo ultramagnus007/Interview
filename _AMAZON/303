@@ -1,0 +1,56 @@
+
+Amazon Interview Experience | Set 303 (On-Campus)
+
+Round 0: (Written): 20 MCQs + 2 Coding Questions
+
+MCQs – Topics: OS ,DS ,DBMS – (Serialization etc.), Aptitude (simple puzzle kind.)
+Coding Questions:
+
+    Given a string output reverse string (string could have multiple spaces between the words).
+    Example:
+    i/p: I am a proud Indian.
+    o/p:
+    Indian proud a am I.
+    Given a no in string format output another string which is the biggest no formed from using same digits , otherwise print -1:
+
+    i/p:
+    0000
+    132
+    4312
+    11
+    o/p:
+    0
+    321
+    432
+    -1
+
+    So the solution is : http://stackoverflow.com/questions/12493591/given-an-array-of-integers-find-the-largest-number-using-the-digits-of-the-array
+
+DAY 2: (Interview Rounds)
+
+Round 1 (Technical Interview – 45 min approx.)
+The Interview started with his introduction , what his department is , what do they do and so on.
+
+    Given a link list of 0’s and 1’s sort it so that all the 0’s are at beginning and 1’s at the end. It had to be in-place.
+    You cannot swap values only pointers.Order of 0’s and 1’s was to be maintained . I had to write production level code for this with all boundary conditions checked!
+    Given an array of 0’s and 1’s again and a variable k , print the size of the smallest window which contains exact k 0’s .
+        discussion about the best optimised approach .
+        I solved it by storing indexes of all 0’s and calculating min diff b/w every k elements.
+
+Round 2 (Technical Interview – 1 hr approx.)
+The interviewer asked me to introduce myself and then my projects.
+
+    A person has to cross a road and with each step he either gains some energy or loses some (this info is provided as an array) . Find out the min amount of energy he should start with so that at any level his energy is not less than 1 ).
+    Simple question done in O(n).
+    How to solve (a*b)%m , where all a,b,m are of the order 10^15. Modulo’s distributive property is one thing .
+    1st approach suggested was breaking the no’s to binary as solving for eg:- [ ( 2^5 + 2^3 + 2^0) * (2^5) ] % [(2^3 + 2^2 + 2^0)] is feasible, but he wanted faster approach.
+    I suggested O(lg b) approach using divide n conquer (recursive solution) .
+    He asked me if I know about the data structure Tier , I had heard about it and its use but never implemented it. He explained a briefly what it is , then told me to code its structure , its functioning (finding / adding a new word) .
+    Then asked a few questions on it , some cases where it will falter , some more discussion on it.
+
+Thanks Geeks ! Result – Selected 🙂
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+

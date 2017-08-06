@@ -1,0 +1,15 @@
+
+Amazon Interview Experience | Set 238 (For SDE)
+First round was HackerRank test:
+Your job is to write a method that will take a stream of integer values, and put them into a tree while counting the number of times each value is seen.  The first value from the given list should occupy the root node. Then you need to traverse the tree breadth-first to generate a string representation of the tree.  Values are to be inserted into the tree in the order that they are given.
+Second Round was an Event at a hotel where 5 intervewers each took about 45 min for a session of Q &A:
+
+    Find the missing number in the increasing sequence. i.e. :
+    input: 1 2 3 5 6 7 output: 4. Tell the complexity.
+    Tell YES or NO if two binary trees have the same numbers (could be of different structures, non-unique elements)
+    Find the nth from frequent character in string (any character)
+    TPM guy: Design an elevator system (one lift, maybe more)
+        Design a Messenger like Facebook or Whatsapp
+        Given 1M U.S. phone numbers (10 digit), choose a data structure/method for the most efficient search. Tell the complexity.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

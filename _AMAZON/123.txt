@@ -1,0 +1,58 @@
+
+
+Amazon Interview | Set 123 (On-Campus for Internship)
+
+Online round: In this round there were 20 MCQ’s to solve and 2 coding question. Of the 20MCQ’s a couple of questions were on Quantitative aptitude, relationships, OS, DBMS, Data structures etc. there was negative marking for every wrong answer so I attempted only 15 for which I was sure.
+
+Q1- find the first non repeating character in a string.
+
+Q2- given a binary tree where each node has some weight. You have to return the max weight in the binary tree.
+
+Maxweight = value of root node + value in its left subtree and right subtree.
+
+Ex  - 2
+   /   \  
+  -1    3
+Output = 4 
+
+1st round(50 mins):
+Q1. Reverse link list in k chunks
+http://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+Interviewer was first interested in approach then he asked me to code.
+
+Q2. Spiral order traversal of binary tree
+http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+I first told him 2 stack approach but he asked me to do without stack .Then I gave him a solution using one queue and one stack and he finally asked me to code both the approaches.
+
+Q3. Longest palindromic substring
+http://www.geeksforgeeks.org/longest-palindromic-substring-set-2/
+I first used DP but he asked me to do O(1) space complexity. I was unable to do so.
+
+2nd round :
+Q1. Connect sibling pointer in a binary tree
+http://www.geeksforgeeks.org/connect-nodes-at-same-level/
+http://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/
+
+Q2. Push ,pop and min operations in O(1)
+http://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+He asked me to do middle operation also and then he asked me to code 2nd problem.
+http://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/
+
+Q3. Given n point in a 2d plane ,find k distant nodes from the origin.
+I told him min heap approach and he was satisfied.
+
+Q4. Problem statement was very long but it was topological sorting.
+http://www.geeksforgeeks.org/topological-sorting/
+I used adjacency list representation, he asked me why
+And finally asked me to code it.
+
+Overall it was a very nice experience interviewing with them.
+
+Some tips:
+
+    Never give up
+    Don’t start with coding ,first explain the approach.
+    Be honest
+    www.geeksforgeeks.org – my guidebook.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

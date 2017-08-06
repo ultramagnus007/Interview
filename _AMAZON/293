@@ -1,0 +1,29 @@
+
+Amazon Interview Experience | Set 293 (On-Campus)
+
+Round 1(Online Test) It consisted of two coding questions and 20 MCQs. Round 2(Technical Interview)
+
+    Write a function to find ‘a’ raised to the power ‘n’.Then he asked me to find the time complexity of the function.
+    He was about to ask me the question of ‘finding the number of islands’-  http://www.geeksforgeeks.org/find-number-of-islands/  but I told him that I already know the solution so he moved to the next question.
+    There are n boxes given that are 1-D. You have to find the best fit for the given item that can fit into the box. For ex- An array of boxes is given as {7,9,12} and we need to find the best match for the item of size 10 then the box with dimension 12 will be our best match. I suggested him to use BST. We can arrange all the boxes in a BST and find the successor for the given item in the BST. He then asked me to code it.
+    He then asked me about my project.
+
+Round 3(Technical Interview)
+
+    He asked me a question of joining strings which is similar to the below question – http://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/ I suggested the same approach and coded it.He was satisfied.
+    There is a audio player given which picks up a random song from the playlist and plays it.The song should not be repeated until all songs are played atleast once.The sequence number of the songs are given in an array.Design such audio player without using any extra space. I suggested him to use a pointer say ‘pivot’ that initially points to the last element of array. The songs to the left of the array are not yet played and the songs to the right are already played and cannot be repeated. Each time a song is picked form left of the pivot and played.That song is then replaced with the pivot element and pivot is moved left by one position. If the pivot points to the first element that means all songs have been played once and the pivot again moves to the rightmost element.
+
+Round 4(HR+Technical) He asked me some HR questions for about half an hour.After that he shifted to the technical part.
+
+    What all data structures you know.Give the real life examples of when can we use them.
+    Write a code for preorder traversal of a binary tree without recursion.
+
+Round 5(Technical Interview)
+
+    Flattening of a binary tree – http://qa.geeksforgeeks.org/3976/flattening-a-binary-tree I coded it correctly and she moved to the next question.
+    A boolean matrix question – http://www.geeksforgeeks.org/a-boolean-matrix-question/  I already knew the question so she just asked me to code it.
+    An array of strings is given in which some strings are anagrams of one another. You have to find those strings and store indexes of those strings in a vector. I suggested to sort all the strings and then use a hashmap<String,vector> to solve the above question. She asked me to code it.
+
+And yayy!! I got selected :p
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed.

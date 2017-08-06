@@ -1,0 +1,66 @@
+
+Amazon Interview Experience | Set 200
+
+Aptitude Round: (1:30 hours)
+19 MCQs
+Easy MCQs on trees, semaphores, deadlocks and algorithms. Few output questions on pointers.
+
+2 Coding questions:
+
+    Check if two strings are anagram.
+    There are n employees in a company, each having some ratings. The employees are given a hike in their salary based on their ratings, i.e employee with higher rating will get the higher raise. An employee can only know the hike and rating of two of his neighbors, one on the left and other on the right. Given an array of size n, specifying the ratings of n employees, find the minimum hike that should be raised for each employee, such that no employee feels unfair.
+    Example: 1 3 5 4 (ratings for 4 employees)
+    Output: 1+2+3+2 = 7
+    Example: 5 3 4 2 1 6
+    Output: 2+1+3+2+1+2 = 11.
+    The hikes are positive integers only. The ratings are greater than zero.
+    Size of input array: 1-1000000
+
+Interview:
+Round 1:
+
+    Given a no, find next no greater than n and having same digits.I was supposed to write a working code for this on paper.
+    There is a robot that is initially at origin. A robot have three operations, he can either turn left or turn right, or he can move one unit ahead in the direction he is facing.
+    Given a string containing L (turn left), R (turn right), G (move one unit ahead).Find if the robot again reaches the point he has been before (find a loop).
+    Example: LGRGRGG
+    Initial co-ordinate is (0, 0), it turns left and moves one unit, updated coordinates (-1,0).
+    Then turns right and moves one unit, updated coordinates (-1, 1).Then turns right and moves two unit (two ‘G’s). Updated coordinates are (1, 1).
+
+Round 2:
+
+    Given an 2-D array, implement an hash map which when given (key, value), insert and retrieve value in O(1). Also implement one more functionality that gives me all the keys for corresponding value in O(n).
+    Given a graph whose vertex can have only two value, either 0 or 1. Find no of distinct clustered ones (island) in the graph. Write a working code for this on paper.
+    amazon1
+    Black nodes – 1 marked vertices.
+    Ans = 2.
+
+Round 3:
+
+    Reverse a stack using only recursion.
+    Create a data structure that maintains a record for all the courses and students enrolled for that course. Each course has course id, and student is uniquely identified by its enrolment no. The data structure should provide following operations:
+        Insert of a new student for a particular course.
+        Deletion of a student for a particular course.
+        Given a (courseid, enrolment no), search if this pair exists or not.
+        At any time you should be able to give the last enrolled student for a particular course.
+
+    All of the above operations should be executed in O(1).
+    Given a tree, print left most and right most node of each level.
+    amazon2
+    Output: 1 2 3 4 5 8
+    Given a table that has amount has its column and an integer n, write a query that give nth largest amount value in the table.
+    What are the differences between child processes and threads? Explain virtual memory, paging concept, page replacement algorithms. Design a data structure for working set algorithm.
+
+Round 4:
+
+    Questions on my internship and projects.
+    Then the interviewer started asking questions on computer networks about framing and all. After asking 3-4 questions on CN, he then switched back to DS.
+    Given a binary tree, find whether it is Binary search tree or not, without using any external dynamic memory for array. Write code for this.
+    And then at last the aura got filled with all the never heard questions on OS and Computer Organization.
+
+Important tips:
+Have a loud thinking, the interviewer helps you if you get struck.
+Don’t do silly mistakes while writing code, take your time but have a neat, optimized code.
+
+
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

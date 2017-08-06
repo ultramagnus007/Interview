@@ -1,0 +1,41 @@
+
+Microsoft Interview | Set 10
+
+Written Test
+It was online test which contains 20 MCQs on C & C++.
+
+The coding round had two questions.
+Given some text lines in one string, each line is separated by ‘\n’ character. Print the last ten lines. If number of lines is less than 10 then print all lines.
+Do the level order traversal of complete binary tree. Given
+
+     1
+  2    3
+4  5  6  7 
+
+Print it as
+1
+2 3
+4 5 6 7
+
+Technical Round 1
+First he asked me to tell him about any project which I have worked on.
+Given an array of integers. Find consecutive elements in array which has maximum sum. I know the solution to this problem so I told him quickly.
+Next he modified the question and asked me to find consecutive elements in array that have sum equals to zero. Taking some time, I told the answer to this question also.
+Next he modified question again and asked me to find consecutive elements in array that have sum close to zero, given that there is no sub array with sum equals to zero. Also write test cases for it.
+
+Technical Round 2
+Given a linked list. How will I detect whether the list has cycle? Also write test cases for it.
+He then asked me whether I have some knowledge of graphics programming. He asked me how I will implement ‘floodfill’ for graphics application. Write code and test cases for it.
+
+Technical Round 3
+Given a 2D array and a key value. Search this key value in array and turn all elements in row and column of this key to zero.
+Given a sorted array of size n. Each element in array is unique and lies from 1 to n+1. Find the missing element. Write code and test cases for the same.
+How will I keep track of number of visitors visited my web page?
+
+Technical/HR Round 4
+Given a string. Find a character with most number of occurrences. Write code and test case for same.
+Why I want to join Microsoft?
+What’s the most challenging task I did in my graduation life?
+
+
+HIRED 

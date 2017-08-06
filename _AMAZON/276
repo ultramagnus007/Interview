@@ -1,0 +1,35 @@
+
+Amazon Interview Experience | Set 276 ( On-Campus SDE-I)
+
+    Round 1(Online test : MCQ+Coding)
+        18 basic MCQ from OS, C, Shell, DBMS(SQL, NoSQL), puzzle(25 horses, find fastest three) :attempted 12/13
+        2 Coding questions:
+            Given a string and a pattern state whether it follows the pattern. For eg: s = “redblueredgreen” matches pattern “abac” but not “aaab” as ‘red’ means ‘a’, ‘blue’ means ‘b’ and ‘green’ means ‘c’ here. String s only contains words “red”, “green” & “blue” and pattern can have any character.[Done]
+            Given a number n and k(no of swaps allowed), make the biggest number from n by making at most k swaps. If its already the biggest return the number itself.
+
+    Round 2(F2F) 1. Given two arrays containing numbers find all possible orderings (a, b) such that a*b=P(given product) where a belongs to array 1 and b belongs to array b.
+    Approach: Store all elements from shorter array in hash and traverse the other and find if (P/b) is present in the hash. If present print the ordering.
+
+    Given a circular road having gas stations at varying distances on the road. The cost to move from one station to another is given. You can refuel at each stations with all the present at the station as the tank capacity is infinite. Find if its possible to traverse the complete road and if yes then find the starting position to finish the route.
+
+    Approach: Start from beginning and start traversing the road. If fuel finishes at any point then move the start index backwards and add its gas to the tank. If its still -ve then keep doing it until you have enough to move forward.
+
+    Round 3(F2F)
+        Given a N*M matrix, print all squares/rectangles of all possible sizes(all 1*1, then all 1*2…. 2*1… )
+
+        Approach: Brute Force
+        Serialize a Binary Tree
+
+        Approach:
+            Store any two traversals. But it takes a lot of space.
+            Store all the nodes and store for each node the information if it has left & right sub-tree or not in a Boolean array.
+
+    Round 4(F2F) 1. Function to find optimal selection of packages from amazon warehouse. Packages contain varying units of a product for eg: one can have 5 units of iphones another can have 3 and so on. Each package is present infinitely ie. take one then there are still infinite left. You can break into a package, you have to take it as a whole. Also, smaller size packages should be used first. Lot of modifications.
+
+    Approach: Suggested subset sum dp solution. Couldn’t handle infinite case properly.  2. Add one to a given number represented using a linked list where MSB was at tail and LSB at head.
+
+ 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above

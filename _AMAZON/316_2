@@ -1,0 +1,37 @@
+
+Amazon Interview Experience | Set 316 (On-Campus)
+
+Round 1- 90-100 min
+
+    First Ques- So what you know about Amazon- I wasn’t prepared to start my interview with this ques. But I had read months earlier how Amazon was established and was able to satisfy him with answer.
+    2 ques- Tell me about Summer Intern at wipro- It took around 20 min. Deep discussion on project, all in and out.
+    3 Ques- How does the program gets compiled internally, I told him I have not studies this part as my branch is ECE.He then asked me what have you studied- I told him DS algo ,OS, Networks and convinced him that ECE is strongly related with CS in terms of Algorithm.
+    4 ques- As i told him that I like competitive coding, He asked tell me 1 quess you have solved- I told him- Find the K-most frequent occurring word till now in a running stream of words by using Trie(modified) and Heap concept. He asked why I am using min heap and not Max heap and I gave the reason.
+    Everything about Min Heap-> Insertion deletion modification.
+    Given data How will you sort them. I told him quick sort , merge sort are possible ways.He asked which you will prefer I told him QuickSort .Why not Merge sort? I told him because of external memory use but then he asked that can’t we do it in-place , later on I was able to do inplace merge sort and he again asked which algo you will prefer I told still quicksort because it is more Cache Friendly and he was satisfied.
+    Given 100 gb data, you need to sort them how will you proceed. I told him external sorting and he straight away told me I don’t want merge sort. Then I tried to twist the situation by asking what type of data is available. He was in doubt why am I asking that, So I told him if all the data is in limited range then I can simply apply
+    counting sort and he was impressed as well he forgot about the actual question. 😛
+    He was done with the interview and said do you have any ques. ME- What role will be playing in the team if selected.
+
+In 2 min They told me that i was cleared for 2 round.
+
+Round 2
+I went for 2 round without wasting time as Spot On offers were to be given. Interviewer was slightly weired and he straight on went for the ques.
+There is data available for different vehicles and all vehicles have n parameters which distinguish it with other vehicle so given huge data you need to separate them in different
+lists based on some parameters matching. How will you proceed->Then he said 3 parameters are there and if all 3 parameters match then they belong to same list.
+I told him lets sort the data according to first parameter then for then sort acc to 2 para and so on..(something like Radix sort).
+He told me to use Hash-Map and model the whole idea….building the structure for each vehicle and then use key to do hash-mapping.
+I implemented it but due to too much overwriting, He was not looking impressed but he told its correct.
+DO u have any questions.
+After this Round I was rejected.
+
+TIPS-
+
+    Please be prepared for Hash_MAP it is very important to have deep knowledge as  this part is rarely covered in.
+    Try to write clean codes and by clean code I mean you shoud use good variable name, dont scribble much and try to write comments along with it.(I made a mistake here.)
+    You should know all in and outs of the project and remember interview can ask any project.
+    Puzzles don’t matter much…
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above

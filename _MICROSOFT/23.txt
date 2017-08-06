@@ -1,0 +1,75 @@
+
+Microsoft Interview | Set 23
+
+Written Test: First round was an online test on cocubes platform (not good for coding). This test is based on C, C++ and DS. The shortlisted students in this round were selected for next round which is coding round. Coding round had two questions:
+
+1) In a Tic-Tac-Toe game two players are playing where player 0 is denoted as 0 and player 1 is denoted as 1. Given a linked list of moves made by the players ,determine who is the winner and in how many moves he required for winning.
+
+Struct Move {
+   int p;    //Player number
+   int x;    //x and y pos in the tic-tac-toi
+   int y;
+  struct Move *next;
+};
+
+2) Given an array if in a position let a[i][j] =1 then print all it’s row and column 1. You should not consider a position 1 after you made it 1 in your past computation.
+Note: In this question it is asked to not use any extra space.
+
+sample(input):
+(i) 00100            (ii)10
+    00000                01
+output:
+(i) 11111            (ii)11
+    00100                11
+
+Group Fly/Activity:
+On the day of interview just before couple of hours we had a group fly in which we will be given two simple questions. We need to discuss our approach with our mentor.
+
+1) Check if a binary tree is balanced or not.
+
+2) remove duplicates from a string inplace.
+
+The questions in this round will generally be pretty simple but an error free(handling all boundary cases) and completely optimized code is expected. Without this, it is very difficult make to next round.Test cases were asked for each and every question below. It is important for you to cover majority of the cases.
+
+Interview Round-1:
+1) Interviewer asked me to optimize the code for the question 2 in previous round (Not in terms of complexity but in terms of number of assembly instructions, time taken to execute each instruction)
+2) Some simple questions based on LL. Sorry I couldnt recollect :(
+3) Recognize power of two using bit operations
+
+Interview Round-2:
+Here I had only one question.
+
+1) A node which has following fields
+
+  a) data
+  b) next_ptr
+  c) prev_ptr
+
+can be used to represent doubly linked list, binary tree or none. Given a random pointer recognize whether it forms DLL, Binary Tree or none. I pointed out that for Binary tree root node has to be given then he asked me to assume the same.
+Keep on discussing your approach with the interviewer, they will generally guide you to the solution.
+
+Interivew Round-3:
+My performance in round2 was a bit shaky and this round was a kind of eliminator.
+1) 2 numbers each reperesented by linked lists, write a function which  gives difference of these numbers.
+
+2) Consider a webpage which has a big single image and another page in which the previous image is divided into 6 parts, which one loads faster?
+Now propose a solution reducing the loading time.(There are no bounds for this question to think, I proposed a solution which includes concepts from vision, networks and multimedia. The interviewer was very much impressed and immediately told me that I am going to have a next round)
+
+Interview Round-4:
+Here I had 5-6 questions. I didnt remember all the questions but you should be able to do it if you follow GeeksForGeeks.
+
+1) Copy a linked list with next and arbit pointer.
+(http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/).
+I told him that I knew this question, then he asked me for the approach and test cases and moved to the next question.
+
+2) Given two sorted arrays. Second array has enough extra space to accommodate elements in first array. Give the resulting sorted array obtained by merging two arrays without using extra space.
+
+3) Consider a binary tree for which root node and a target node are given to you. Give the next sibling of the target.(let the target be in level k, then you need to give the immediate node which is in level k)
+
+Other questions were based on arrays, linked lists and binary trees (mixture of these).
+
+All the interviewers were very cool, helpful etc etc… They understand our tension and try to make us feel as comfortable as possible. The first interviewer even put his arm over my shoulder during our little walk from canteen to interview room.
+
+And yes hired!!! Thanks to GFG.
+
+

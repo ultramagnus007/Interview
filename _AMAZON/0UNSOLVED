@@ -1,0 +1,74 @@
+Interview 295
+You are given a array of positive integers which represents heights of buildings.Width of each building is assumed to be 1. You have to find max rectangle area of buildings.
+    Ans: http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+----------------------------------------------------------------------------------------
+Interview  197
+Josephus problem
+http://www.geeksforgeeks.org/josephus-problem-set-1-a-on-solution/
+
+Serialization of n-ary trees.
+
+searching is sorted rotated array without finding pivot
+
+1) Given a huge array which is stored across 100 computers, with no way to bring them all together, find the median of the above array.
+
+----------------------------------------------------------------------------------------
+Interview: 8
+1. A binary search tree is given with its two nodes interchanged. I had to find both the nodes.
+/**SOLVED**/2. He drew a circle on the board and marked a few points on it. Named them X1, X2, X3 ..
+
+3. We have a huge file with braces ‘()’ [just one type..] Find if they are balanced ..  (stacks wouldn’t work here because you will probably run out of memory storing the stack ..) When I gave him another solution, he asked me to do it using parallel processes. I told him to elaborate more.. (to be honest I wasn’t familiar with parallel processes) 
+
+
+----------------------------------------------------------------------------------------
+
+Interview: 286
+
+3. Trapping Rain Water Problem : http://www.geeksforgeeks.org/trapping-rain-water/
+4. Dynamic Programming (Longest Arithmetic Progression) : http://www.geeksforgeeks.org/length-of-the-longest-arithmatic-progression-in-a-sorted-array/
+/**SOLVED**/3. Tree Isomorphism Problem : http://www.geeksforgeeks.org/tree-isomorphism-problem/
+Logic was given and then I coded it. He still didn’t seemed to be satisfied and asked me to walk him through my code for an example tree and draw the recursion tree for the same.
+
+3. Connect the nodes of the binary tree in the same vertical level by using the next pointer. The tree could have nodes with at most two parent nodes.
+Approach was given and he didn’t seemed to be fully satisfied with my code at first, but then after some optimizations he said it seems to be fine now.
+
+--------------------------------------------
+
+Interview: 38
+
+Shuffle Songs
+/***SOLVED**/c. Given array of ints. find ar[i],ar[j] such that j>i and ar[j]-ar[i] is maximum. Famous problem. (Code)
+b. Given two arrays of ints of size m and m+n in sorted order. merge it inplace. Famous problem. (Code)
+
+---------------------------------------------
+
+Interview: 281
+
+/**SOLVED**/Q.1 Add two integers represented by singly linked lists to produce the resultant linked list which represents the sum as follows :
+using recursion
+
+
+---------------------------------------------
+
+Interview: 222
+
+
+    Final question he asked that like in github when we save a code it makes commit points. So if some code has been saved multiple times and has many branches divided and then getting merged. We have to find the least common parent of two given commit points.
+    It is similar to a linked list which is getting divided and then getting merged again number of times.
+
+    AA - B - C (divided in two) - D (merged into one)- -- F - G (divided) --- H - I - J 
+              | ---------------------   E          |------------------K - L
+    As :
+    A - B - C - D  - F - G  ---  H - I - J
+                  \      /         \     
+                     E              K - L
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+
+
+Amazon interview Experience | Set 133
+
+Recently had a interview with Amazon, through employee referral. All face to face rounds. I didn’t clear, so no offer. :(
+
+1st Technical Round:
+
+Given an integer, find the next biggest integer whose digits are in increasing order.
+
+Example:
+Input: 118
+Output: 123
+
+Input: 127
+Output: 234
+
+Input: 987
+Output: 1234
+
+Designing question: Design a parking space to park a car.
+
+2nd Manager Round:
+
+Explain my current project. Architecture and design flows etc. asked.
+Any challenges while working on the project.
+Any glitches/cases where you completed got it wrong etc.
+
+After two rounds asked to leave. I guess I didn’t answer as per standards.
+
+Thanks anyways GeeksForGeeks.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

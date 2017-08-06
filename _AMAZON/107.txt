@@ -1,0 +1,52 @@
+
+
+Amazon Interview | Set 107 (For SDE-1)
+
+I finished interviews at Amazon few days back. Here is my interview experience:
+
+Telephonic round (Screening):
+1) Discussion around work in current company. Why Amazon?
+2) You are given an infinite sorted array containing only numbers 0 and 1. Find the transition point efficiently.
+3) He gave me some function and asked me to arrive at the complexity of it.
+
+F2F-I:
+1) Brief discussion on work in current company
+2) Flatten linked list – http://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/
+3) Design a data structure which holds number 1 to n such that insert, remove(this operation will take in a number between 1 to n as argument and remove that number from data structure if it exists) and get valid element in the data structure operations are done with O(1) complexity
+
+F2F-2:
+1) Brief discussion of work in current company
+2) Find and print longest consecutive number sequence in a given sequence
+
+    Ex: Input: 1 2 5 3 6 8 7
+       Output: 5 6 7 8 
+
+3) A fair die is thrown k times. What is the probability of sum of k throws to be equal to a number n?
+
+F2F-3:
+1) Brief discussion of work in current company. Why Amazon?
+2) Why do you want to leave current company? What do you like most and dislike most about your current company?
+3) Sum two numbers represented by linked list iteratively and recursively.
+4) You are given an infinite sorted array containing only numbers 0 and 1. Find the transition point efficiently.
+
+F2F-4:
+1) Lots of HR, behavioral and team fit questions
+2) User statistics are logged in the following format –
+
+    user_id|page|time at which page was accessed
+   We need to identify most followed 3 page sequence by users.
+   Example:
+      Input: U1|Page1|05/08/2014 10:00
+               U1|Page2|05/08/2014 10:01
+               U1|Page3|05/08/2014 10:02
+               U1|Page4|05/08/2014 10:03
+               U2|Page2|05/08/2014 10:02
+               U2|Page3|05/08/2014 10:04
+               U2|Page4|05/08/2014 10:05
+               U3|Page3|05/08/2014 10:04
+               U3|Page4|05/08/2014 10:05
+               U3|Page5|05/08/2014 10:06
+      Output: Most followed 3 page sequence for the input is 
+              Page2 -> Page3 -> Page4. 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

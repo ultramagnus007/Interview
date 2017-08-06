@@ -1,0 +1,105 @@
+
+Flipkart Interview | Set 11
+
+Checking your coding capabilities and thinking level is their main motive. Hence the whole procedure I was involved in dealt only with coding questions. :D
+
+There were total 4 Rounds.
+1. Online Coding
+2. Machine Coding
+3. Face to face Technical Interview
+4. Technical + HR
+
+Round 1 : Online Coding :
+
+Time: 1 hour 30 Min
+
+Question 1: Powers of 5
+http://community.topcoder.com/stat?c=problem_statement&pm=12155&rd=15177&rm=314191&cr=22639266
+Same question with modified language.
+
+Question 2: Apllication of DFS/BFS
+You were given a directed graph with n nodes. Given graph was connected. If there is an edge from u to v then u depends on v. Our task was to find out the sum of dependencies for every node.
+
+flipkartinterview1
+Example:
+
+For the graph in diagram, A dependencies: C,D i.e. 2
+B dependencies: D i.e. 1
+C dependencies: D i.e. 1
+And D depends on none.
+Hence answer=0+1+1+2=4.
+
+ 
+
+
+Round 2: Machine Coding Round
+
+Time: 1 hour 30 min
+
+Question:
+Given two very large numbers a & b in string format. You need to produce the result for the following operation:
+0 : Add a & b
+1: Subtract a & b
+2: Multiply a & b
+
+Example:
+123456789
+987654321
+
+Output:
+0 ==> 1111111110
+1 ==> -864197532
+2 ==> 1219326313718945259
+
+Few cases were checked specifically:
+1) Output of 132-132 must be 0 not 000.
+2) 2 – 122222000002 should produce -122222000000 i.e either a or b can be the bigger string.
+3) Negative input should be handled. Result of -2+202 = 200.
+4) 1000000000 – 1 = 999999999 i.e. resulting answer can be of different length.
+
+
+
+Round 3: Face to face technical Interview
+
+Time: 45-50 minutes.
+
+Question 1: Given the mobile numeric keypad. You can only press buttons that are up,left,right or down to the current button.You are not allowed to press bottom row corner buttons (i.e. * and # ). flipkartinterview2Given a N find out the number of numbers possible of given length. It was asked to write the code.
+
+Example:
+For N=2
+Possible numbers: 00,08 11,12,14 22,21,23,25 and so on. We have to print the count of such numbers.
+I solved it using DP in first attempt. He was quite impressed as I took very less time to think of the exact solution.
+
+Question 2: Given a undirected graph with following special points:
+1) Every node has at most 3 links.
+2) Node with a single link is a leaf node.
+3) Nodes are numbered from 1 to N.
+(Think how is it different from a 3-ary Tree, See bold text :P )
+We do the following operation on the given graph: Among all the current leaf nodes we search for the node with minimum node value, delete it and print its parent. We do this operation until only two nodes are left in the graph.
+If your are given N and an array having the printed values from the operation, you have to generate the graph back. Exact implementation was asked to write.
+
+Example:
+N = 8
+
+ar[]= {4,3,6,6,5,4}
+
+Output should be adjacency matrix for the following graph.
+flipkartinterview3
+Example Image for Question 2 of Round 3.
+
+
+
+Round 4 : Technical + HR
+
+Time : 1 Hour
+
+1) Introduction.
+2) Asked everything about my project every minute detail, even I was asked to write code for few sections of my code i.e. how I implemented those features.
+3) Asked few questions on teamwork that how would I handle particular situations.
+4) Strengths and weaknesses.
+5) Tell me about one thing that you have done in college and proud of be it in academics or in any field.
+6) Best and worst classmate till now and Why !! :D
+
+With this as the final interview my long journey of Interviews ended :) . Wish you all, all the very best hope this would help :)
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

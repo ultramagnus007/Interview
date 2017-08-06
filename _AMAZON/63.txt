@@ -1,0 +1,56 @@
+
+
+Amazon Interview | Set 63 (For SDE-1)
+
+I have a total experience of two years. I am sharing my interview experience with Amazon. This is for SDE1 Amazon.
+
+A very big thanks to whole team of geeks for geeks. It is because of them only that I was able to make Amazon and get a job in my dream company. Otherwise it was impossible for me.
+
+Online round: (1hr, working code required)
+
+    Given coin array and a sum K, find min. number of required coin to make sum K. (DP Question)
+    Two rectangles are given in two D space. Find if these are overlapping or not
+    KMP for pattern searching
+
+After two days I got the call to come Amazon Bangalore ofc to attend next rounds:
+
+1st Round:
+
+    First occurrence of duplicate char  in a char array.
+    Merge two sorted array of n and n+m size
+    Zig-zag traversal of tree
+
+2nd Round (Hiring Manager, full explanation in white board):
+
+    Tell me about one of your best project, deep drive J
+    Count the words in a file (simple one)
+    Design parking system.
+
+3rd Round: (one or two DS ques I forgot)
+
+    Reverse every k-element in  a linked list
+    Check if two tree are mirror tree
+    Find longest palindrome in a string
+    Find sum K from an unsorted array which have both –ive & +ive numbers.
+    Full explanation about tries (search, insert, traversal, delet)
+    Full browser working
+    Lock variable and their implementation (OS)
+    What is hashing, if any hash function mapping tow inputs to one output then how to handle that scenario at the time of retrieval, you can’t change hash function.
+
+After one week I got the call from HR for my BR round.
+
+4th Round (BR Round, full on white board):
+
+    Cultural fit questions: tell me about yourself, why you are looking for change, what innovative you did in last two year (I had already preparation for all these type of questions) J
+    Lots of discussion happened about my current project.
+    Given two string remove the characters of one string from another string
+    o   Another variation he asked: Given two string remove the characters of one string(having duplicate characters) from another string
+
+    o   One more variation he asked: Given two string remove the characters of one string(having duplicate characters) from another string from right to left.
+
+    Given one string, print all the anagrams of this string from a given file which contains lots of strings.
+    o   Another variation of this he asked: Given group of string, print all the anagrams of all given string from the file of strings.
+
+    After that he asked one more culture fit question
+
+He was very happy after seeing my explanationsJ J

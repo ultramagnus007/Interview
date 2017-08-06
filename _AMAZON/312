@@ -1,0 +1,70 @@
+
+Amazon Interview Experience | Set 312 (For SDE II)
+
+I was not able to recall phone interview question from Amazon for SDE – II . After few days from phone interview, I got an email invitation to fly for face to face interview. Below are the questions that I was asked during the in-person interview.
+
+Round 1:
+Write a program to check whether it is a valid binary tree or not.
+Check all test cases (e.g. No left Node case).
+Behaviour Questions
+
+Round 2:
+Behaviour Questions
+Tell me your current job roles, responsibilities , Challenges and improvements that you can make on your current project
+
+Round 3:
+A lot of Behaviour Questions again
+Introduction, your current roles and responsibilities
+
+Round 4:
+Various Types of Behaviour Questions
+Design a kind of kindle fire application where we can subscribe news channel and read the news from all publishers as a digital format.
+
+Round 5:
+Behaviour Questions
+Design an OOP concept for an application where employee can dispatch their incoming phone call according to their seniority level if they are not able to solve.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+-------------------------------------------------------------------------------------------------
+
+
+Amazon Interview Experience | Set 312 (Off Campus)
+
+I got a call from amazon for F2F discussion for SDE1 at hyderabad. There were totally four rounds and asked to leave for the day.
+
+First round:
+
+    Find the kth smallest element in row wise and column wise sorted matrix. (No Heap solution)
+    There is a given data with time and number of orders at that time and it will random. Then there will be a query of how many orders placed between a given interval of time.
+
+Second Round:
+
+    http://www.geeksforgeeks.org/minimum-number-of-swaps-required-for-arranging-pairs-adjacent-to-each-other/
+    There given a list of strings out which we have to print the unique strings. Unique string is a string which is not repeated.
+
+Third Round:
+
+It was a discussion on my current project and the challenges I faced and how I managed when I am unable to meet the deadlines.
+
+    There given a 2 Lists with int values. We need to find the longest chain. Eg: L1 = { 2,7,4,8,9,10}, L2 = {1,2,8,9,4}. Here the solution is 2 (chain is 2,4 or 8,9). Because 7 is present in L1 which is not L2.
+    Given a equi-weighted uni directed graph and need to find the max distance possible from a given node.
+
+Fourth Round:
+
+It was again discussion on my current project.
+
+Final question of my interview: Add 1 to the integer represented by a linked list with O(n) time and O(1) space.
+
+First I start with the recursion and he suggested me without stack space too. Then I suggested for the reversing of linked list and then adding the number. He was again asked me without reversing of linked list. Then I came up with the solution with linear search.
+
+Thanks GeeksforGeeks for your work in helping so many programmers!!
+
+ 
+
+ 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above

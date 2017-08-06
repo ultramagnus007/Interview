@@ -1,0 +1,87 @@
+
+Amazon Interview Experience | Set 242 (1 Year Experience)
+Telephonic round: (1 hour)
+It is started with interviewer introduction followed by my introduction. Need to write the code in shared docs. They shared CollabEdit link before interview.
+1) http://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+2) http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
+After one week, they called me to Hyderabad office for on-site interview. They have arranged everything.
+Every round started with interviewer introduction followed by my introduction.
+End of every round, interviewer asked “Do you have any questions”?
+
+ 
+Round-1: (1 hour, 2 interviewers)
+1) Questions related to my exp, projects and my role, architecture of my projects
+2) can we construct a tree with single traversal? NO
+    which traversal is must needed ? INORDER. Why?
+Then he asked  http://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/
+2) http://www.geeksforgeeks.org/next-greater-element/
+
+ 
+Round-2: (1 hour 45 min, 1 interviewer)
+1) Multiplication of two numbers without using multiplication operator.
+2) He explained a situation like you have super market and items sold every day, blah blah… finally the question becomes as follows
+Given a file which contains one product id per line(millions of products) which are sold and some product ids may repeat. We need to find how many items are unique in that file. (i.e sold uniquely)
+3) Cycle in a LL
+4) How we can implement a queue with one pointer
+5) Given a key , search the key in the LL, if exists swap the values of prev node and current node. After I given solution then he asked me swap nodes NOT values.
+6) Given a binary tree, construct a MIRROR of that tree.
+So many behavioural questions around 10 -15 questions. some are
+Give me an instance
+
+    clashes with Teammate
+    when you shared your team mate burden
+    your PM doesn’t agree with your opinion
+    if time is less for the project, how you will handle
+    What you have done to increase team efficiency
+    big mistake you have done in the team
+    your are moved to new team but you dont have any exp with that technology. how you will handle?
+    you team mate is not working properly because of that you are working more time. how you will handle the situation?
+    you came with idea but team doen’t agree
+    What are the areas/techonoloies which you want to improve?
+    blah, blah, … so many
+
+Round-3: (1 hour, 2 interviewers)
+They said that first we will go with technical questions then related to exp and projects.
+1) Given an array find the missing numbers. Array is not sorted and range of elements also not known.
+Ex: input: a[]={1,100} output: 2,3,…99
+input a[]={100,1} output: 2,3,..99
+Then they asked algorithm for
+
+    if only one number missing and range 1 to n
+    if array sorted and one number missing
+
+2) Given a two nodes in a binary tree, check those are cousins or not. Cousins means both have to present in same level but doesn’t have a common parent.
+They wants within a single traversal of a tree we need to find. (2 traversal of a tree also not allowed. I have done in two traversal 🙂 )
+They given hints and finally we solved it.
+3) Related to heaps
+
+    how you will insert a value, what is the time complexity
+    how you will delete a value, what is the time complexity
+    how you will construct a heap with a given array, what is the time complexity
+
+Round-4: (1 hour, 1 interviwer)
+He is senor most guy. I felt a little bit uncomfortable.
+1) Asked about current projects and my role and related to exp.
+2) He explained a scenario as follows:
+Amazon has so many products which are selling outside. Given a millions of products and he can tell how to construct a URL with product id to get the product details page which contains info about product, ratings and commnets, blah blah.
+Ex: if product id is 123456 then the URL becomes www.amazon.com/product/123456
+Then questions are as follows
+
+    Retrieve the rating for each product(ex:123456) which is present in that page (ex: www.amazon.com/product/123456
+    After finding ratings for every product(millions of products). Give an algorithm to find top 10 rated products. Asked me to write production level code NOT pseudo code.
+    Then he extended if product ratings are same (it may occur for some product) then we need to consider the product which has more number of comments
+    Time complexity for above cases
+
+3) Why you want to leave current job?
+
+ 
+Suggestions:
+1) Need to cover (order is high to low priority): Trees, Heaps, sorting and searching, LL, Stacks, Queues, strings, DP, Greedy, Divide and conquer, hash map and collisions, recursion and back tracking, bit manipulation, basic graph algorithms, OOD, scalability and memory units, any missing topics.
+2) You sholud know the time complexity for STL data structures.
+Ex: For hashing, we will say we can find a value in O(1) but if we are using C++ STL, map was implemented with Balanced BST so it will take O(logn).
+3) You MUST prepare some beheaviroual questions, atlest standard quesitons like Why Amazon? Why do you want to live?
+4) Practise on paper because you need to write on paper in all rounds of interview.
+
+ 
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

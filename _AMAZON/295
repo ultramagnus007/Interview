@@ -1,0 +1,121 @@
+
+Amazon Interview Experience | Set 295 (On Campus)
+
+Amazon visited our campus for FTE’s (Full Time Employees). Interview process started with an online coding round followed by 4 face to face interviews. The level of difficulty increased as we move to the further rounds. All interview rounds started with brief introduction about me.
+
+Online Round:
+
+A hackerank contest with 22 questions inclusive of 2 coding problems and 20 MCQ’s on C, OS, DBMS, Networking.
+The 20 MCQ’s are mainly based on Algorithm analysis for example time complexity space complexity for a particular snippet of code, basic C, java output based questions, OS Mutex ,semaphores, IPC, synchronisation etc..
+Here are some of the questions i remember
+
+     Which of the following sorting algorithms have worst case nlogn complexity?
+    Ans:merge sort,heap sort.
+     Time to insert an node after a given node in a linked list?
+    Ans:O(1).
+     Number of child process created when fork() system call is called n times?
+    Ans:2^n-1(i guess).
+     Int arr[5]={1,2}, cout<<a[2]<<a[3]<<a[4];. . . what is the output of the following snippet? Ans:0,0,0.
+     The average time taken for searching an element in an array using linear search assuming that the searched element is always present in the array? Ans: (n+1)/2.
+    You will be given array ,you have to find out which of them represents a max/min heap?
+     You are two traversals of a binary tree,,you have to find out the asked traversal? For ex: Inorder=4, 8, 10, 12, 14, 20, 22. Level order=20, 8, 22, 4, 12, 10, 14 Find preoreder? Ans:20,8,4,12,10,14,22
+    You are given a binary search tree and a key time taken for the Searching given key? Ans:O(log(n)) worst case for balanced BST O(n) worst case for Normal BST (this case occurs for left/right skewed trees).
+
+Coding Questions :
+
+     You are given a array of positive integers which represents heights of buildings.Width of each building is assumed to be 1. You have to find max rectangle area of buildings.
+    Ans: http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+    You are given a string let say “saideep” ,s-1,a-1,i-1,e-2,d-1,p-1 is the frequency of each character.VALUE of the string is defined as sum of squares of count of each distinct character.value of above string is 1+1+1+1+4=8; Your task is to minimize the strings VALUE of the string after removal of ‘k’ characters.
+    Ans: Its a straight forward question where you take a 256 array to store frequency of each character ,for k times you find a maximum frequency character and decrements its frequency by 1. After k iterations print the VALUE function you get by remaining characters.
+
+F2F 1 ( 1 hr 30 min, TECHNICAL ) :
+
+Interviewer is a lady, probably 3-4 years senior to me.She asked me two coding Questions:
+
+     You are given a binary tree ,you have to print extreme nodes of it.? Give me an algorithm that is robust,works fine for all cases,explain the space complexity and time complexity of you algorithm?
+    For Example:
+
+          1
+        /  \
+       2    3
+      /  \   \  
+     4    5   8 
+             /  \
+           6    7
+
+    Output: ( 1 2 8 6 ) or (1 3 4 7)
+    Ans: It is just a modification of level order traversal,keep track of a Boolean flag variable and flip it after each iteration. She then asked me write complete code neatly.
+    You will be given two linked lists that consists of digits 0-9 only in each node. Each linked list represents a Number ,you have to add two numbers represented by a linked list?
+    For Ex:
+
+    Input:
+    First List: 5->6->3 // represents number 365
+    Second List: 8->4->2 // represents number 248
+    Output
+    Resultant list: 3->1->6 // represents number 613
+
+    I said i already know that question she skipped to the next question
+    Ans: http://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+    You will be given a linked list that contains loop inside it,if exists detect it and remove it?For Example: 
+    Ans: First i gave a hashing kinda solution that works for sure for all the cases. The idea is that whenever I see a node i make a lookup in the hashtable to see whether it exists in the table already r not, if exists then there is a loop and i make that node ==NULL.
+    Else Iwill insert that node in hash table and move to the next node.
+    She was ok with that solution but it required O(n) space of hash table, so she asked me to do in O(n) time and O(1) space.
+    Then i got that 2 pointer method (floyds cycle detection algo ),so i gave that method,by this method we can detect a loop easily,but removing it requires some mathematics(related to kinematics in 1-D).
+    She then asked me write complete code neatly.
+
+F2F 2 ( 1hr 30 min TECHNICAL ) :
+
+He gave me two coding questions
+
+    You are given a string with distinct characters and you have to print all the permutations of it?
+    For ex: Input:”AB”
+    Output: AB,BA
+    Its a straight forward question and i gave him an back tracking approach and he asked me to explain how that backtracking works using an example.i explained him by taking various examples that involves corner cases and made sure that it works for all the cases. He then asked me write complete code neatly.
+    Ans: http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+    You are given a maze which describes the way for a goat to reach its house.Maze is usually a M*N grid consisting of only 0’s and 1’s .Goat initially is at (0,0) point in the maze and it has to reach point(M-1,N-1).The only possible move the goat can make is go RIGHT,DOWN,RIGHT-DOWN(DIAGONAL) i.e from a point (i,j) goat can move to(i+1,j) or(i,j+1) or (i+1,j+1) point.Goat can make only one step at a time. Your task is to find number of such paths for the goat to reach its house.
+    Point (0,0) and point(M-1,N-1) are abviously 1. A 1 indicates that the point can be used and 0 indicates that the point is blocked in the sense we cannot go to the point at any cost.
+    Ans: I gave him a recursive solution initially and explained him about the drawbacks of that solution, that it takes exponential time to solve that problem.
+    I then explained how i can use Dynamic programming to solve this problem and gave him a DP solution.He was very much impressed with my solution and asked me the time and space complexities of that solution.He then asked me write complete code neatly.
+
+F2F 3 ( 1hr TECHNICAL ) :
+
+The interviewer went through my resume and my previous interview rounds performance and said introduce yourself. I introduced myself: He asked me if I had done any internships. I said no sir,i got chance in some of the companies but i didn’t take it. He then asked me what did you learn in this summer ,I said I prepared for the placements and I’ve done 1-2 mini projects.
+He then asked me why didn’t you take that interns. I told him i don’t like those companies hiring process itself how can i work in the company.I said that they all asked memorizing concepts which i am very weak in and didn’t even ask me single logical question.he even didn’t ask me single coding question.
+
+He said lets start our process you are here because of your coding skills, but in this round I am gonna ask you theoretical questions.
+
+He asked me
+
+     Difference between trigger and stored procedure?
+     Difference between thread and process?
+     Define deadlock and race condition?
+     How deadlock is detected?
+    What is resource allocation graph and how its related to deadlock,what are the nodes in that graph?
+     He asked me what all the data structures i know and give their real time examples?
+     Indexing in DBMS
+     Types of indexes
+     How indexing is done in DB(b-tree and b+trees)
+     Views ,types of views its advantages
+
+He then gave me a coding question: You have to replace every element of an array with its immediate smaller element to the right. If such an element doesn’t exist don’t replace it.
+Ans: I gave him a stack solution which he was very much satisfied and asked me to code taking care of corner cases. He then asked me write complete code neatly. He is satisfied with my code and asked me to wait outside for further round.
+
+F2F 4 ( HR+TECHNICAL ) :
+
+He started by asking me to introduce myself and gave a coding question.It’s the tough question
+
+You will be given a floor say(m*n) dimensions and sub rectangles that can fit inside the big rectangle..you have to print the floor plan for given dimensions of small sub rectangles.
+He explained me that it requires construction of SLICING TREE and then printing floor plan. He asked which all the data structures you will use to construct it and asked me think of it.
+
+Ans: I gave him an stack/queue based approach .I told him that i’ll sort the sub rectangles by lengths/breadths and push them in stack in d=increasing order. .he was very much satisfied with my algorithm and asked me to code it.I coded it completely and showed him . .I just solved the problem and i didn’t print the floor plan which is our actual problem. .i then implemented the print function inside it.
+He said that he’s done with the interview and asked me if any queries.
+I asked him about the kinda of project he’s currently working and some casual discussion on technologies.
+
+PS:- Everyone knows the algorithm but it’s implementation with robust,clean code is required which covers all test cases.they will certainly give corner cases that our code fails to execute so make sure you write a universal code.Make sure you ask any doubts if any to clarify the given question/scenario.The interviewers are a lot helpful and they give you hints if you are struck.
+
+Thanks GeeksforGeeks . .It helped me a lot in my preparation.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+

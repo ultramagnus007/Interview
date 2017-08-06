@@ -1,0 +1,41 @@
+
+Microsoft Interview | Set 4
+
+Hi, this is Ishita Gupta. I have been one of the lucky hires of Microsoft this year through oncampus. So wanted to share my experience as well as the questions asked for other aspirants to benefit from.
+Written round was conducted online. It was a one hour test, with 30 aptitude questions and 20 technical (based on C, C++, Algorithms, flowcharts, logic, pseudocodes).
+After being selected in 1st written, there was another written. It was of one hour, and there were 4 questions:
+
+    Replace all spaces (” “) in a string with \0 – write function for this.
+    Give method for finding out if a tree is binary or not – I wrote algorithm for it.
+    Give a method to merge two sorted arrays A and B, provided A has enough space to accommodate B at the end.
+    The problem of late landing of aeroplane due to fog and traffic was presented. They tend to burn up their fuel while waiting for landing. So a instant solution and a long term solution to the problem was asked. This was kind of subjective writing.
+
+Both the writtens were done on 14th Aug. Results of the 2nd written was given out on 4t Sept, when they actually came to our campus.
+
+
+I had 3 rounds of interview.
+1st interview: 
+Started asking what all subjects I know in CSE (as I am from M. Tech ECE, and this time they allowed us too). I told him C, basics of C++, socket programming, little of SQL etc. He asked me what is the approach of C Programming called. (Procedural). Then asked for C++. Then wanted me to explain him the disadvantages of Procedural programming. Then went onto class, object, relations between objects, inheritance, abstraction, encapsulation. Asked me to give an  example from the interview room to describe these concepts. (I chose fan!). Then he went to concepts of memory – stack, heap. Static and dynamic memory allocation, static variable and local variable memory allocation. Difference in memory allocation for struct & class and class & object.
+Then he “changed gears” and asked me to write a program to reverse a string.
+Then he asked me malloc, new. Then he shifted to DBMS or rather SQL, as I mentioned I know SQL only and do not remember basics of DBMS. He asked me the types of languages in SQL (DML, DDL) and then asked to write queries to get distinct entries from a column and then to get only the non-distinct entries from that column.
+Then he asked me to give solutions to the problem of timeout and overload on irctc server during tatkal reservation. It went on for an hour. I came out all exhausted!
+
+
+2nd interview:
+After getting shortlisted in 1st interview, 2nd interview started off with concepts of C and C++ as well as OOPS.
+Was asked to write a program to find out the duplicates in a string in the most efficient way with least complexity.
+Was asked for basic concepts of Cloud Computing. This interview lasted for 40 mins or maybe a bit more.
+
+
+3rd interview:
+This was the last round, and it was HR surprisingly! Questions asked were:
+……Passion
+……Tools for success
+……Discussion of technologies that I have learnt on my own
+……As student of ECE, why MSIT and not Telecom
+……Won’t I get bored at MSIT?!
+……Any questions for the panel
+
+This interview also extended for around 40 mins.
+
+Results were declared 5 hours later, with everyone’s interview being over. And God gifted me with MSIT job! :D 

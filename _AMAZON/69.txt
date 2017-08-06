@@ -1,0 +1,53 @@
+
+Amazon Interview | Set 69 (For SDE-1)
+
+Online Coding Round:
+
+    Find if a given string contains duplicates
+    Given a BST, find the maximum N elements of the tree
+    Given a BST, convert it into Doubly Linked List
+    Rotate a 2-D Matrix by 90 degrees
+
+Telephonic Interview 1:
+
+    Sliding Window Problem: Given a larger integer buffer/array (say size, x), now given a window size (say, n) and a number (say, k). Windows starts from the 1st element and keeps shifting right by one element. The objective is to find the minimum k numbers present in each window.
+    Given a binary tree, each node having an integer data, the objective is to create a new Doubly Linked List using this binary such that each node in DLL has vertical sum of nodes in binary tree. The order of nodes in DLL shall be left to right as that of binary tree’s vertical nodes i.e., leftmost vertical sum shall be 1st node in DLL and the rightmost vertical sum shall be the last node in DLL.
+
+Telephonic Interview 2:
+
+    Given the root of the binary tree and a pointer to any random node in that tree, the objective is to print all the nodes at ‘k’ distance from the given random node.
+
+Face to Face:
+
+Note: Time and space complexity were discussed in each of the following questions. And for each question I was asked to optimize the algorithm and later write the working code for it.Also in each round the current project was discussed.
+
+Round 1:
+
+    Given a matrix (m*n), source (0, 0) & destination (m-1, n-1) (i.e. last cell), Find out total number of ways to reach the destination from the source.
+    Given a binary tree, defining a term “complete path sum” as, sum of values of nodes lying in a path from root to the leaf; Now given a value ‘k’, we have to find the k-heavy path and prune the binary tree i.e. prune/delete nodes for which complete path sum is smaller than k.
+
+Round 2 (Manager’s Round):
+
+A thorough discussion on an issue: If I am an owner of company which is selling some product. So, how shall I store my data in Database such that when any analyst comes and asks for any information then I could provide him most precise values. It mainly consisted which data should be stored and how it should be stored.
+
+    Given two sorted arrays, create a final sorted array. Later, the problem was extended saying that, now we have ‘m’ number of sorted arrays each of size ‘n’, now efficiently create a final array. A lot of discussion was done on complexity of the approach (both time and space).
+
+Round 3:
+
+    Given a binary tree, where cost of travelling to the left child is ‘1’ and same for the right child is ‘2’. Now, given the root of the tree and a value ‘k’, find the total number of nodes that are at a distance/cost of ‘k’ from the root.
+    Given an unsorted integer (positive values only) array of size ‘n’, we can form a group of two or three, the group should be such that the sum of all elements in that group is a multiple of 3. Find the maximum number of groups that can be generated in this way.
+    Given an integer array, find minimum number of jumps to reach the end of the array.
+    http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+
+Round 4:
+
+    Given a BST, convert it into a Doubly Linked List in place. NOTE: We don’t have to create a new data structure i.e. we have to modify the links/pointers in given BST.
+    Question was framed this way: Given street of houses (a row of houses), each house having some amount of money kept inside; now there is a thief who is going to steal this money but he has a constraint/rule that he cannot steal/rob two adjacent houses. Find the maximum money he can rob.
+
+NOTE: I didn’t face any HR round, all though in each rounds I was asked about the reason for the change.
+
+In all it was a great experience, and interviewers were really cool and gave a plenty of time to think and code, sometimes suggested/hinted if I got stuck.
+
+GeeksforGeeks has been extremely helpful for me in preparing.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

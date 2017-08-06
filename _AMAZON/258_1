@@ -1,0 +1,80 @@
+
+Amazon Interview Experience | Set 258 (Off-Campus)
+
+Telephonic Round
+Q1- http://www.geeksforgeeks.org/given-linked-list-reverse-alternate-nodes-append-end/amazon
+Q2. Find kth node from end in a link list(Asked its many solutions)
+Q3. Print the extreme left and extreme right node of every level in a tree.
+
+Round 2
+Q1. Given a string remove all duplicate characters but the last one. Example.
+abcab output is cab
+
+You can’t assume 256 chars.
+
+Q2. Print left view of a tree
+
+Q3. Return first non repeating character in stream of characters
+
+Round 3.(1 hour)
+It was all about my current projects and work.
+
+Round 4
+1.Given two Link list having some sorted elements and have some common elements . Find the largest sum LL where you can switch between LL at a common point.
+
+2. Given a circular table how many handshakes are possible so that no two handshakes cross each other
+Eg
+
+    1
+2        3
+    4
+
+Handshake with 2-3 and 1-4 will cause cross.
+
+Round 5
+1. Given a directed graph check is it tree or not?
+2. Given an array of integers check whether there are two numbers present with given product
+3. Questions on my current projects
+4. Questions on how processes communicate
+5. Questions on synchronization
+6. Questions on Networks
+
+Round 6-
+1. Tries
+2. print all interleaving strings
+3. Given a sorted array of size n having numbers in range from 1 to n count how many numbers are sum of some other two elements in the same array in (n) time and O(1) space
+
+Round 7-
+1- Check given number is multiple of 3 not using % and /.
+2- Check validity of tic tac toe
+
+Thanks a lot G4G
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+----------------------------------------------------------------------------------------------
+
+Amazon Interview Experience | Set 258 (Off-Campus)
+
+1st Round Written Test:
+1) Print a 2d matrix in spiral form.
+
+2) Add two linked lists and return the head of the o/p list.
+http://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+
+2nd Face to Face Round:
+1) Print the bottom and right of a binary tree.
+http://www.geeksforgeeks.org/bottom-view-binary-tree/
+
+2) One question of DP
+http://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/ (He asked me maximum.)
+
+In Amazon, they expect you to write production level code. No Pseudo Codes.
+
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+

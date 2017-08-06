@@ -1,0 +1,82 @@
+
+Amazon Interview Experience | Set 222
+
+Aptitude Round: (1:30 hours)
+20 MCQs
+MCQs on OS, maths aptitutude, and algorithms etc . Few output questions on pointers. Do have a look at old GATE papers and you may get some seen questions 😉
+
+2 Coding questions: ( on hackerRank)
+
+    Given an array having positive and negative numbers. Rearrange the array in such a way  that positive and negative numbers are then alternate
+    Eg – Input : { -3, 1, 5 , 7, -4, -7, -6} Ouptut : {-3, 1, -4, 5, -7, 7, -6} (Question demand;ed that order of the elements should not change)
+    A similar question is given in geeksforgeeks with O(1) space but that uses quick sort concept which is not stable and hence order gets changed in many test cases.
+    I used simple approach of dividing array in two parts of positive and negative numbers and then merging them one by one which worked.
+    Convert a tree into it’s sum tree
+    http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/
+
+Interview:
+Round 1:
+
+    Talked something about my projects and introduction.
+
+    A modification of binary search. Eg – 5,5,8,8,9,11,11,13 .. If we give input 8 then it should return index 1 i.e. index of previous element to the first occurence of the
+    given input number. Even though if the number is not found then also it should work like for input = 12 the answer should be 7.
+
+    Create links in an N-ary tree(N not fixed) into a tree where children of every node are having next pointer connected to it’s siblings in a spiral fashion.
+    Also on level 1 right most node’s next pointer should point to level 2’s right most node and in spiral way taking upwards root’s next should point to left most child.
+    I used two stacks to do the problem. The interviewer asked me to code it, I couldn’t complete but she was convinced with my approach.
+
+Round 2:
+
+    It had easy questions, maybe they wanted to check coding skills for known problems. And also asked about projects.
+
+    Given two strings then check if they are anagrams or not. (Character set is not just 26 alphabets it can special symbols like $ % ! )
+    Also if strings have spaces then also they are anagrams like “adf ds” & “addfs” are also anagrams. I implemented it in Java using HashMap.
+
+    Given two sorted linked lists, merge them into one linked list (Both iterative and recursive code)
+
+Round 3:
+
+    Tell me about your favorite subjects. I told Data structures & Algorithms , Number Theory & Cryptography. He asked me about different attacks possible on a website page. And asked me about what is man in the middle attack. Maybe he just wanted to check my knowledge on my areas.
+
+    There is a society which has 8 parking slots and there are 7 cars. Each car is supposed to be parked in some fixed position and one slot is needed to be left.
+    Example – Let { A ,” “, D, E, B, F, G, C} be the perfect arrangement. But society people never follow the rule and park in any position. Your work is to design a strategy which arranges the cars in perfect arrangement at the end of the day having minimum number of swaps. I was able to solve only this one question in this round. I used to strategy that :
+    1. I’ll first find the empty slot and will check if there is some car should be placed in that place properly and will swap the car.
+    2. In case the empty slot is at correct position then I’ll find an improperly placed car and place it at empty slot and then will continue with step 1 iteratively till I get the perfect arrangement.
+
+Round 4:
+
+    This was the round with main person who had come with Amazon team. He was taking interview since morning and had seen me with my friends discussing about interviews conducted by him. It was 7:30 in evening when my interview was about to start so while going to room in lift he asked me that if I know any of his questions. I honestly told that yeah I know about a few. He asked me about them and their solutions. One was similar to question 2 of round 1. Another was arranging a list of lists. He said that he will ask new questions now 😛
+
+    Again a modification of binary search : Ex : {c,f,k,v} Now given an input for element we have to print the element next to it in array (even if it is not present) 
+    Input Output
+      a      c
+      c      f
+      j      k
+      v      c
+
+    Then he asked me something about my challenging projects. Some project where I had to do submission in a fixed deadline. Also asked if I take part in online coding competitions.
+
+Then he asked simple question of finding maximum sum subarray (Kadane’s algorithm). I did it very quickly so he asked another question to find next greater permutation. I gave the algorithm and coded it.
+
+    Final question he asked that like in github when we save a code it makes commit points. So if some code has been saved multiple times and has many branches divided and then getting merged. We have to find the least common parent of two given commit points.
+    It is similar to a linked list which is getting divided and then getting merged again number of times.
+
+    AA - B - C (divided in two) - D (merged into one)- -- F - G (divided) --- H - I - J 
+              | ---------------------   E          |------------------K - L
+    As :
+    A - B - C - D  - F - G  ---  H - I - J
+                  \      /         \     
+                     E              K - L
+
+    I have a table given for parents of a node in chronological order and we have direct access to parents too.
+    Ex – In this case
+    Node – J I H L K G F D E C B A
+    Parent – I H G K G F D,E C C B A NULL
+
+    Given if I/P is (H, L) the output must be G. It seems similar to LCA concept of trees but it is a slight modification of it. I told about concept of stack that I’ll search for given nodes and will then store in two stacks and will pop till I get same value from stack. This popping I’ll do according to information of table of node- parent.
+    I was not able to complete it but was able to show my approach and I handled the corner cases. He was satisfied with it.
+
+            I suggest that always listen carefully to interviewer, they’ll definitely help if you have any doubt. Tell them your approach at least if you are not able to code it. Practice writing code on paper. Be very careful while you tell about projects. They may get very interested in your projects and it will be very helpful for you. For Amazon Arrays, Linked Lists and Trees are concepts which are very generally asked. Data structures & algorithms should be proficiently practiced. Thanks a lot GeeksforGeeks 🙂 🙂
+
+        if you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks
